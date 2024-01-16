@@ -1,38 +1,36 @@
-
-
-
-
 body {
     font-family: 'Merriweather', serif;
     margin: 10px 30px 0px 25px;
 }
+
 header {
     height: 1000px;
     background-repeat: no-repeat;
     background-image: url(../imags/Banner\ Image.png);
 }
+
 nav {
     margin: 0px 200px;
 }
-.nav-title {
-    color: hwb(0 100% 0% / 0.863);
-    text-align: center;
-    font-size: 25px;
-    font-weight: 300;
-    padding-top: 177px;
-    padding-left: 20px;
-    padding-right: 10px;
-    margin-bottom: 0px;
+.nav-design{
+   justify-content: center;
 }
-.banner-containt {
+.nav-title {
     color: #FFF;
     text-align: center;
-    font-size: 75px;
-    font-weight: 800;
-    padding-left: 215px;
-    padding-right: 30px;
-    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 100px 110px 380px 310px;
 }
+
+.banner-containt {
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 95px;
+   padding: 10px 20px 580px 20px;
+}
+
 .main-section {
     color: #F00;
     text-align: center;
@@ -43,6 +41,7 @@ nav {
     border-radius: 16px;
     margin-top: 1px;
 }
+
 .section-description {
     color: #F00;
     text-align: center;
@@ -50,6 +49,7 @@ nav {
     font-weight: 500;
     margin-top: 5px;
 }
+
 .item {
     color: #070211;
     text-align: center;
@@ -57,6 +57,7 @@ nav {
     font-weight: 500;
     margin-top: 0px;
 }
+
 img {
     width: 802.9px;
     height: 500px;
@@ -64,6 +65,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
 .title-img {
     background-image: url(../imags/Group\ 70.png), url(../imags/Vectorrr.png);
     height: 1000px;
@@ -71,6 +73,7 @@ img {
     background-position: right 5px, right 10px;
     margin-bottom: 0px;
 }
+
 .section-title {
     color: #FFF;
     font-size: 64px;
@@ -81,6 +84,7 @@ img {
     padding-left: 126px;
     margin: 0px;
 }
+
 .description {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -91,6 +95,7 @@ img {
     padding-left: 126px;
     margin: 5px;
 }
+
 .primery-btn {
     color: #FFF;
     text-align: center;
@@ -102,14 +107,16 @@ img {
     border-radius: 5px solid rgba(0, 0, 0, 0.524);
     border: 0px;
 }
+
 .about {
     padding: 130px;
     border-radius: 20px;
     background: #ffa07a5a;
     margin-top: 2px;
     border: 10px;
-   
+
 }
+
 .title {
     text-align: center;
     color: #070211;
@@ -118,6 +125,7 @@ img {
     line-height: 56px;
     text-transform: capitalize;
 }
+
 span {
     color: #F00;
     text-align: center;
@@ -126,6 +134,7 @@ span {
     line-height: 56px;
     text-transform: capitalize;
 }
+
 .btn-primary {
     color: #FFF;
     font-size: 20px;
@@ -135,16 +144,20 @@ span {
     border: 0px;
     margin-left: 450px;
 }
+
 .section {
     text-align: center;
     margin-top: 35px;
 }
+
 #section-descrption2 {
     padding: 0px 450px;
 }
+
 .color {
     color: #F00;
 }
+
 .description-desing {
     border-radius: 16px 0px 16px 16px;
     background: #F00;
@@ -155,14 +168,17 @@ span {
     background-position-x: right 50px;
     margin-left: 10px;
 }
+
 #img-description {
     width: 429px;
     height: 433px;
-    padding-left: 380px;
+    padding-left: 320px;
 }
-#img-design{
+
+#img-design {
     margin-left: 5px;
 }
+
 #title-design {
     color: #F00;
     font-size: 24px;
@@ -172,6 +188,7 @@ span {
     padding-left: 30px;
     margin: 30px;
 }
+
 .product-detail {
     color: #070211;
     font-size: 40px;
@@ -182,6 +199,7 @@ span {
     padding-left: 20px;
     margin: 10px;
 }
+
 .product-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
@@ -190,22 +208,27 @@ span {
     line-height: 32px;
     padding-left: 40px;
 }
-.products , .product2{
+
+.products,
+.product2 {
     height: 350px;
     width: 300px;
     display: flex;
     gap: 150px;
     margin-top: 5px;
 }
+
 .subscribe-section {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     margin-top: 50px;
 }
-#img-title{
+
+#img-title {
     padding-left: 150px;
     padding-top: 25px;
 }
+
 .subscribe-title {
     color: #070211;
     text-align: center;
@@ -215,6 +238,7 @@ span {
     line-height: normal;
     text-transform: capitalize;
 }
+
 .subscribe-description {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -224,21 +248,25 @@ span {
     line-height: 32px;
     margin: 10px 20% 20px 15%;
 }
+
 .input-section {
     text-align: center;
 }
+
 .input-design {
     width: 450px;
     height: 80px;
     border-radius: 50px;
     background: #FFF;
 }
+
 .subscribe-option {
     width: 210px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
+
 #subscribe-now {
     width: 20px;
     height: 0px;
@@ -248,6 +276,7 @@ span {
     font-weight: 250;
     text-transform: capitalize;
 }
+
 .footer-section {
     display: block;
     width: 1500px;
@@ -255,31 +284,38 @@ span {
     background: #070211;
     margin-top: 10px;
 }
+
 nav {
     display: flex;
     padding-top: 60px;
     justify-content: space-around;
 }
-nev>ul {
+
+.nev>ul {
     display: flex;
 }
+
 nav h4 {
     padding-right: 40%;
 }
+
 nav li {
     color: #FFF;
     list-style: none;
 }
+
 .footer-design {
     color: #FFF;
     font-size: 24px;
     font-weight: 400;
 }
+
 hr {
     width: 1320px;
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
 }
+
 .social-media,
 img {
     width: 44px;
@@ -289,6 +325,7 @@ img {
     margin-left: 35%;
     gap: 20px;
 }
+
 .footer-down {
     color: #FFF;
     font-size: 20px;
